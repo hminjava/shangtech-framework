@@ -3,6 +3,10 @@ classes/
 bin/
 lib/
 target/
+.settings/
+.classpath
+.mymetadata
+.project
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 

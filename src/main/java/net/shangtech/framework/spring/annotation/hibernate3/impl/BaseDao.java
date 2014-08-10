@@ -109,6 +109,7 @@ public class BaseDao<T> extends HibernateDaoSupport implements IBaseDao<T> {
 	 * @return<br/>
 	 * 描述：查找所有记录并分页显示
 	 */
+	@SuppressWarnings("deprecation")
 	public List<T> findAll(final int start, final int limit, String orderBy){
 		String queryString = "from " + getEntityClass().getSimpleName();
 		if (StringUtils.isNotBlank(orderBy)) {
